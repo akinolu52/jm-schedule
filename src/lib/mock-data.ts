@@ -64,8 +64,8 @@ export const EMPLOYEES: Employee[] = [
     { id: '15', name: 'Dsouza, Evita', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '16', name: 'Dua, Kashika', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '17', name: 'Gomes, Turjoo', role: 'Team Member', primaryJob: 'Equipier' },
-    { id: '18', name: 'Kaur, Amanpreet', role: 'Team Member', primaryJob: 'Equipier' },
-    { id: '19', name: 'Loca, Mary jane P', role: 'Team Member', primaryJob: 'Equipier' },
+    { id: '18', name: 'Kaur, Ananpreet', role: 'Team Member', primaryJob: 'Equipier' },
+    { id: '19', name: 'Laxa, Mary Jane P', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '20', name: 'Maswuka, Charles', role: 'Team Member', primaryJob: 'Equipier' },
 
     // Page 3 Cont.
@@ -198,12 +198,12 @@ export const SHIFTS: Shift[] = [
     { employeeId: '17', day: 'Sat', date: '1/10/2026', startTime: '12:30', endTime: '19:30' },
     { employeeId: '17', day: 'Mon', date: '1/12/2026', startTime: '09:30', endTime: '14:00' },
 
-    // 18. Kaur, Amanpreet
+    // 18. Kaur, Ananpreet
     { employeeId: '18', day: 'Wed', date: '1/07/2026', startTime: '12:00', endTime: '16:00' },
     { employeeId: '18', day: 'Fri', date: '1/09/2026', startTime: '12:00', endTime: '17:00' },
     { employeeId: '18', day: 'Mon', date: '1/12/2026', startTime: '12:00', endTime: '17:00' },
 
-    // 19. Loca, Mary jane P
+    // 19. Laxa, Mary jane P
     { employeeId: '19', day: 'Tue', date: '1/06/2026', startTime: '16:00', endTime: '21:00' },
     { employeeId: '19', day: 'Wed', date: '1/07/2026', startTime: '10:30', endTime: '14:00' },
     { employeeId: '19', day: 'Sat', date: '1/10/2026', startTime: '11:30', endTime: '19:30' },

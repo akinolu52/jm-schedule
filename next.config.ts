@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
-  output: "export",  // Required for GitHub Pages (Static Site Generation)
-  basePath: "/jm-schedule", // Required for GitHub Pages project site
+  output: isProd ? "export" : undefined,
+  basePath: isProd ? "/jm-schedule" : undefined,
   images: {
-    unoptimized: true, // Required as GitHub Pages doesn't support Next.js Image Optimization
+    unoptimized: true,
   },
 };
 

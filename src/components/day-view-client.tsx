@@ -110,7 +110,9 @@ export function DayViewClient({ day }: { day: string }) {
     const checkOverlap = (shift: Shift, rangeStart: number, rangeEnd: number) => {
         const s = getTimeDecimal(shift.startTime);
         const e = getTimeDecimal(shift.endTime);
-        return Math.max(s, rangeStart) < Math.min(e, rangeEnd);
+        const sectionStart = Math.max(s, rangeStart);
+        const sectionEnd = Math.min(e, rangeEnd);
+        return sectionStart < sectionEnd;
     };
 
     const sections = {
@@ -121,45 +123,48 @@ export function DayViewClient({ day }: { day: string }) {
 
     return (
         <div className="min-h-screen bg-background p-4 md:p-8 space-y-8">
-            <div className="flex flex-col md:flex-row md:items-center gap-4 border-b pb-6 justify-between">
-                <div className="flex items-center gap-4">
-                    <Button variant="outline" onClick={() => router.back()}>
-                        ← Back to Week
-                    </Button>
-                    <div>
-                        <h1 className="text-3xl font-extrabold tracking-tight flex items-center gap-3">
-                            {dayInfo?.label} Schedule
-                        </h1>
-                        <p className="text-muted-foreground">{dayInfo?.date}</p>
+            <div className="flex flex-col gap-6 border-b pb-6">
+                {/* Top Row: Back, Title, Stats */}
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div className="flex items-center gap-4">
+                        <Button variant="outline" onClick={() => router.back()}>
+                            ← Back to Week
+                        </Button>
+                        <div>
+                            <h1 className="text-3xl font-extrabold tracking-tight flex items-center gap-3">
+                                {dayInfo?.label} Schedule
+                            </h1>
+                            <p className="text-muted-foreground">{dayInfo?.date}</p>
+                        </div>
                     </div>
-                </div>
 
-                <div className="flex items-center gap-6">
                     {/* Quick Stats */}
-                    <div className="flex gap-4 text-sm">
+                    <div className="flex gap-4 text-sm bg-muted/20 p-3 rounded-lg border">
                         <div className="flex flex-col items-center">
                             <span className="font-bold text-xl">{dayShifts.length}</span>
                             <span className="text-muted-foreground text-xs uppercase tracking-wider">Staff</span>
                         </div>
-                        <div className="flex flex-col items-center border-l pl-4">
+                        <div className="flex flex-col items-center border-l border-border/50 pl-4">
                             <span className="font-bold text-xl">{managerCount}</span>
                             <span className="text-muted-foreground text-xs uppercase tracking-wider">Managers</span>
                         </div>
-                        <div className="flex flex-col items-center border-l pl-4">
+                        <div className="flex flex-col items-center border-l border-border/50 pl-4">
                             <span className="font-bold text-xl">{totalHours.toFixed(1)}h</span>
                             <span className="text-muted-foreground text-xs uppercase tracking-wider">Total Duration</span>
                         </div>
                     </div>
+                </div>
 
-                    <div className="w-[250px]">
-                        <Label htmlFor="day-search" className="sr-only">Search</Label>
-                        <Input
-                            id="day-search"
-                            placeholder="Filter employees..."
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                        />
-                    </div>
+                {/* Bottom Row: Search */}
+                <div className="w-full max-w-md">
+                    <Label htmlFor="day-search" className="sr-only">Search</Label>
+                    <Input
+                        id="day-search"
+                        placeholder="Filter employees..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="bg-card shadow-sm"
+                    />
                 </div>
             </div>
 
