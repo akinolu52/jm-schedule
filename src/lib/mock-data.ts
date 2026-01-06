@@ -75,7 +75,7 @@ export const EMPLOYEES: Employee[] = [
     { id: '24', name: 'Romana, Zeenath', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '25', name: 'Sebastiao, Madalena', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '26', name: 'Singh, Manmeet', role: 'Team Member', primaryJob: 'Equipier' },
-    { id: '27', name: 'Solmec, Andrew', role: 'Team Member', primaryJob: 'Equipier' },
+    { id: '27', name: 'Solme, Andrew', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '28', name: 'Tabernonco, Celestine E', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '29', name: 'Tamang, Rohan', role: 'Team Member', primaryJob: 'Equipier' },
     { id: '30', name: 'Trascitti, Maria', role: 'Team Member', primaryJob: 'Equipier' },
