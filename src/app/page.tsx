@@ -21,7 +21,7 @@ export default function Home() {
         <ScheduleGrid />
 
         <footer className="mt-8 text-center text-sm text-muted-foreground">
-          Page 1 of 1 • Printed for: Morgan, Brandon
+          Created by: Emmanuel
         </footer>
       </div>
     </main>
