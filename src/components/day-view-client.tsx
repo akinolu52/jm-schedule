@@ -190,7 +190,7 @@ export function DayViewClient({ day }: { day: string }) {
                             {sections[section].map((item) => {
                                 const style = getShiftStyle(item);
                                 return (
-                                    <div key={item.employeeId} className="flex items-center justify-between border-b pb-2 last:border-0 last:pb-0 group">
+                                    <div key={`${item.employeeId}-${item.startTime}`} className="flex items-center justify-between border-b pb-2 last:border-0 last:pb-0 group">
                                         <div>
                                             <div className="font-semibold text-sm flex items-center gap-2">
                                                 {item.employee.name}
@@ -277,7 +277,7 @@ export function DayViewClient({ day }: { day: string }) {
                                     const style = getShiftStyle(shift);
 
                                     return (
-                                        <div key={shift.employeeId} className="relative h-12 flex items-center z-10 group hover:bg-muted/10 rounded-lg transition-colors -mx-2 px-2">
+                                        <div key={`${shift.employeeId}-${shift.startTime}`} className="relative h-12 flex items-center z-10 group hover:bg-muted/10 rounded-lg transition-colors -mx-2 px-2">
                                             <div className="w-[180px] shrink-0 pr-4 text-xs font-medium truncate z-20 flex flex-col justify-center">
                                                 <span className={`font-bold ${style.textColor}`}>{shift.employee.name}</span>
                                                 <span className="text-muted-foreground text-[10px]">{shift.employee.role}</span>
