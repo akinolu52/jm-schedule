@@ -186,7 +186,7 @@ export const SHIFTS: Shift[] = [
     { employeeId: '34', day: 'Mon', date: '3/30/2026', startTime: '11:50', endTime: '19:30' },
 
     // 16. Gomes, Patrick
-    { employeeId: '16', day: 'Tue', date: '3/24/2026', startTime: '10:30', endTime: '15:30' },
+    { employeeId: '10', day: 'Tue', date: '3/24/2026', startTime: '10:30', endTime: '15:30' },
     { employeeId: '16', day: 'Wed', date: '3/25/2026', startTime: '11:00', endTime: '16:00' },
     { employeeId: '16', day: 'Thu', date: '3/26/2026', startTime: '11:30', endTime: '19:00' },
     { employeeId: '16', day: 'Fri', date: '3/27/2026', startTime: '08:00', endTime: '16:30' },
