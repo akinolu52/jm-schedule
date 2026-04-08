@@ -25,6 +25,10 @@ export const EMPLOYEES: Employee[] = [
     { id: '8', name: 'Williams, Keianne', role: 'Shift Manager', primaryJob: 'Shift Manager' },
     { id: '9', name: 'Yousufi, Zameer', role: 'Shift Manager', primaryJob: 'Shift Manager' },
     { id: '35', name: 'Sarkar, Dipanwita', role: 'RGM in Training', primaryJob: 'RGM in Training' },
+    { id: '36', name: 'Johnson, Kenneth', role: 'Shift Manager', primaryJob: 'Shift Manager' },
+    { id: '37', name: 'Tamang, Nikita', role: 'Shift Manager', primaryJob: 'Shift Manager' },
+    { id: '38', name: 'Benoit, Nour', role: 'Shift Manager', primaryJob: 'Shift Manager' },
+    { id: '39', name: 'Brown, Caleb', role: 'Shift Manager', primaryJob: 'Shift Manager' },
 
     // Team Members
     { id: '10', name: 'Akinyemi, Emmanuel', role: 'Team Member', primaryJob: 'Equipier' },
@@ -55,206 +59,214 @@ export const EMPLOYEES: Employee[] = [
 ];
 
 export const DAYS = [
-    { label: 'Tue', date: '3/24/2026' },
-    { label: 'Wed', date: '3/25/2026' },
-    { label: 'Thu', date: '3/26/2026' },
-    { label: 'Fri', date: '3/27/2026' },
-    { label: 'Sat', date: '3/28/2026' },
-    { label: 'Sun', date: '3/29/2026' },
-    { label: 'Mon', date: '3/30/2026' },
+    { label: 'Tue', date: '4/7/2026' },
+    { label: 'Wed', date: '4/8/2026' },
+    { label: 'Thu', date: '4/9/2026' },
+    { label: 'Fri', date: '4/10/2026' },
+    { label: 'Sat', date: '4/11/2026' },
+    { label: 'Sun', date: '4/12/2026' },
+    { label: 'Mon', date: '4/13/2026' },
 ];
 
 export const SHIFTS: Shift[] = [
-    // PAGE 1 - Managers & Sarkar
+    // PAGE 1 - Managers
 
     // 35. Sarkar, Dipanwita
-    { employeeId: '35', day: 'Tue', date: '3/24/2026', startTime: '07:00', endTime: '15:00' },
-    { employeeId: '35', day: 'Wed', date: '3/25/2026', startTime: '11:00', endTime: '20:00' },
-    { employeeId: '35', day: 'Thu', date: '3/26/2026', startTime: '11:00', endTime: '19:00' },
-    { employeeId: '35', day: 'Fri', date: '3/27/2026', startTime: '11:30', endTime: '20:00' },
-    { employeeId: '35', day: 'Sun', date: '3/29/2026', startTime: '12:00', endTime: '18:00' },
-    { employeeId: '35', day: 'Mon', date: '3/30/2026', startTime: '11:30', endTime: '19:30' },
+    { employeeId: '35', day: 'Tue', date: '4/7/2026', startTime: '11:30', endTime: '19:30' },
+    { employeeId: '35', day: 'Wed', date: '4/8/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '35', day: 'Thu', date: '4/9/2026', startTime: '11:00', endTime: '19:00' },
+    { employeeId: '35', day: 'Sun', date: '4/12/2026', startTime: '11:00', endTime: '19:00' },
+    { employeeId: '35', day: 'Mon', date: '4/13/2026', startTime: '09:00', endTime: '17:30' },
 
-    // 1. Bhattarai, Sanket (NONE)
-
-    // 2. Basnet, Seela
-    { employeeId: '2', day: 'Tue', date: '3/24/2026', startTime: '11:30', endTime: '16:30' },
-    { employeeId: '2', day: 'Sun', date: '3/29/2026', startTime: '11:00', endTime: '19:30' },
+    // 38. Benoit, Nour
+    { employeeId: '38', day: 'Tue', date: '4/7/2026', startTime: '08:00', endTime: '16:00' },
+    { employeeId: '38', day: 'Wed', date: '4/8/2026', startTime: '07:30', endTime: '15:30' },
+    { employeeId: '38', day: 'Thu', date: '4/9/2026', startTime: '15:30', endTime: '23:00' },
+    { employeeId: '38', day: 'Fri', date: '4/10/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '38', day: 'Sun', date: '4/12/2026', startTime: '15:00', endTime: '22:30' },
 
     // 3. Bhavna, Bhavna
-    { employeeId: '3', day: 'Wed', date: '3/25/2026', startTime: '06:30', endTime: '15:00' },
-    { employeeId: '3', day: 'Thu', date: '3/26/2026', startTime: '07:00', endTime: '15:00' },
-    { employeeId: '3', day: 'Sat', date: '3/28/2026', startTime: '12:00', endTime: '20:00' },
-    { employeeId: '3', day: 'Sun', date: '3/29/2026', startTime: '07:00', endTime: '15:00' },
-    { employeeId: '3', day: 'Mon', date: '3/30/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '3', day: 'Tue', date: '4/7/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '3', day: 'Wed', date: '4/8/2026', startTime: '11:00', endTime: '19:00' },
+    { employeeId: '3', day: 'Fri', date: '4/10/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '3', day: 'Sun', date: '4/12/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '3', day: 'Mon', date: '4/13/2026', startTime: '07:00', endTime: '15:00' },
+
+    // 39. Brown, Caleb
+    { employeeId: '39', day: 'Tue', date: '4/7/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '39', day: 'Wed', date: '4/8/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '39', day: 'Fri', date: '4/10/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '39', day: 'Sat', date: '4/11/2026', startTime: '12:30', endTime: '20:30' },
+    { employeeId: '39', day: 'Mon', date: '4/13/2026', startTime: '07:30', endTime: '15:30' },
 
     // 4. Martin, Hashmal
-    { employeeId: '4', day: 'Tue', date: '3/24/2026', startTime: '11:45', endTime: '19:00' },
-    { employeeId: '4', day: 'Wed', date: '3/25/2026', startTime: '12:00', endTime: '20:00' },
-    { employeeId: '4', day: 'Fri', date: '3/27/2026', startTime: '07:00', endTime: '15:00' },
-    { employeeId: '4', day: 'Sat', date: '3/28/2026', startTime: '07:00', endTime: '15:00' },
-    { employeeId: '4', day: 'Mon', date: '3/30/2026', startTime: '15:00', endTime: '22:30' },
+    { employeeId: '4', day: 'Tue', date: '4/7/2026', startTime: '15:00', endTime: '22:00' },
+    { employeeId: '4', day: 'Thu', date: '4/9/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '4', day: 'Fri', date: '4/10/2026', startTime: '15:00', endTime: '22:00' },
+    { employeeId: '4', day: 'Sun', date: '4/12/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '4', day: 'Mon', date: '4/13/2026', startTime: '11:00', endTime: '19:00' },
 
     // 5. O'SULLIVAN, ADAM F
-    { employeeId: '5', day: 'Tue', date: '3/24/2026', startTime: '15:00', endTime: '22:30' },
-    { employeeId: '5', day: 'Wed', date: '3/25/2026', startTime: '15:00', endTime: '23:00' },
-    { employeeId: '5', day: 'Fri', date: '3/27/2026', startTime: '15:00', endTime: '22:30' },
-    { employeeId: '5', day: 'Sat', date: '3/28/2026', startTime: '12:00', endTime: '20:00' },
-    { employeeId: '5', day: 'Sun', date: '3/29/2026', startTime: '14:00', endTime: '22:30' },
+    { employeeId: '5', day: 'Tue', date: '4/7/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '5', day: 'Wed', date: '4/8/2026', startTime: '15:00', endTime: '22:00' },
+    { employeeId: '5', day: 'Fri', date: '4/10/2026', startTime: '11:00', endTime: '19:00' },
+    { employeeId: '5', day: 'Sat', date: '4/11/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '5', day: 'Mon', date: '4/13/2026', startTime: '15:00', endTime: '23:00' },
 
     // 6. Philip, Shijil
-    { employeeId: '6', day: 'Tue', date: '3/24/2026', startTime: '15:00', endTime: '22:00' },
-    { employeeId: '6', day: 'Wed', date: '3/25/2026', startTime: '15:00', endTime: '23:00' },
-    { employeeId: '6', day: 'Thu', date: '3/26/2026', startTime: '15:00', endTime: '22:30' },
-    { employeeId: '6', day: 'Sat', date: '3/28/2026', startTime: '10:00', endTime: '19:00' },
-    { employeeId: '6', day: 'Mon', date: '3/30/2026', startTime: '11:00', endTime: '19:00' },
+    { employeeId: '6', day: 'Tue', date: '4/7/2026', startTime: '11:30', endTime: '19:30' },
+    { employeeId: '6', day: 'Wed', date: '4/8/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '6', day: 'Thu', date: '4/9/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '6', day: 'Sat', date: '4/11/2026', startTime: '11:00', endTime: '19:00' },
+
+    // 37. Tamang, Nikita
+    { employeeId: '37', day: 'Tue', date: '4/7/2026', startTime: '07:30', endTime: '15:30' },
+    { employeeId: '37', day: 'Thu', date: '4/9/2026', startTime: '15:30', endTime: '23:00' },
+    { employeeId: '37', day: 'Sat', date: '4/11/2026', startTime: '07:30', endTime: '15:30' },
+    { employeeId: '37', day: 'Sun', date: '4/12/2026', startTime: '12:30', endTime: '21:00' },
+    { employeeId: '37', day: 'Mon', date: '4/13/2026', startTime: '16:00', endTime: '23:00' },
 
     // 7. Taniya, Taniya
-    { employeeId: '7', day: 'Wed', date: '3/25/2026', startTime: '10:30', endTime: '19:00' },
-    { employeeId: '7', day: 'Thu', date: '3/26/2026', startTime: '10:30', endTime: '17:00' },
-    { employeeId: '7', day: 'Fri', date: '3/27/2026', startTime: '11:15', endTime: '19:45' },
-    { employeeId: '7', day: 'Sun', date: '3/29/2026', startTime: '07:30', endTime: '16:30' },
-    { employeeId: '7', day: 'Mon', date: '3/30/2026', startTime: '11:45', endTime: '16:45' },
+    { employeeId: '7', day: 'Thu', date: '4/9/2026', startTime: '07:30', endTime: '15:00' },
+    { employeeId: '7', day: 'Fri', date: '4/10/2026', startTime: '10:15', endTime: '16:00' },
+    { employeeId: '7', day: 'Sat', date: '4/11/2026', startTime: '12:00', endTime: '20:00' },
+    { employeeId: '7', day: 'Sun', date: '4/12/2026', startTime: '08:30', endTime: '16:30' },
+    { employeeId: '7', day: 'Mon', date: '4/13/2026', startTime: '11:45', endTime: '19:30' },
+
+    // PAGE 2
+
+    // 36. Johnson, Kenneth
+    { employeeId: '36', day: 'Tue', date: '4/7/2026', startTime: '15:30', endTime: '23:00' },
+    { employeeId: '36', day: 'Wed', date: '4/8/2026', startTime: '15:30', endTime: '23:00' },
+    { employeeId: '36', day: 'Fri', date: '4/10/2026', startTime: '15:30', endTime: '23:00' },
+    { employeeId: '36', day: 'Sat', date: '4/11/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '36', day: 'Mon', date: '4/13/2026', startTime: '11:30', endTime: '20:00' },
 
     // 8. Williams, Keianne
-    { employeeId: '8', day: 'Wed', date: '3/25/2026', startTime: '15:00', endTime: '23:00' },
-    { employeeId: '8', day: 'Fri', date: '3/27/2026', startTime: '15:00', endTime: '22:30' },
-    { employeeId: '8', day: 'Sat', date: '3/28/2026', startTime: '15:00', endTime: '22:30' },
-    { employeeId: '8', day: 'Sun', date: '3/29/2026', startTime: '15:00', endTime: '22:30' },
-    { employeeId: '8', day: 'Mon', date: '3/30/2026', startTime: '15:00', endTime: '22:00' },
+    { employeeId: '8', day: 'Wed', date: '4/8/2026', startTime: '11:30', endTime: '19:30' },
+    { employeeId: '8', day: 'Thu', date: '4/9/2026', startTime: '15:00', endTime: '22:00' },
+    { employeeId: '8', day: 'Fri', date: '4/10/2026', startTime: '15:00', endTime: '23:00' },
+    { employeeId: '8', day: 'Sat', date: '4/11/2026', startTime: '15:00', endTime: '22:00' },
+    { employeeId: '8', day: 'Mon', date: '4/13/2026', startTime: '15:00', endTime: '22:00' },
 
     // 9. Yousufi, Zameer
-    { employeeId: '9', day: 'Fri', date: '3/27/2026', startTime: '12:00', endTime: '20:00' },
-    { employeeId: '9', day: 'Sat', date: '3/28/2026', startTime: '12:15', endTime: '19:30' },
-    { employeeId: '9', day: 'Sun', date: '3/29/2026', startTime: '12:00', endTime: '20:30' },
-    { employeeId: '9', day: 'Mon', date: '3/30/2026', startTime: '11:00', endTime: '19:00' },
-
-    // PAGE 2 
+    { employeeId: '9', day: 'Sat', date: '4/11/2026', startTime: '07:00', endTime: '15:00' },
+    { employeeId: '9', day: 'Sun', date: '4/12/2026', startTime: '10:30', endTime: '18:30' },
+    { employeeId: '9', day: 'Mon', date: '4/13/2026', startTime: '08:00', endTime: '15:00' },
 
     // 10. Akinyemi, Emmanuel
-    { employeeId: '10', day: 'Tue', date: '3/24/2026', startTime: '16:00', endTime: '22:30' },
-    { employeeId: '10', day: 'Wed', date: '3/25/2026', startTime: '12:00', endTime: '21:00' },
-    { employeeId: '10', day: 'Thu', date: '3/26/2026', startTime: '11:30', endTime: '16:30' },
-    { employeeId: '10', day: 'Sat', date: '3/28/2026', startTime: '16:00', endTime: '22:30' },
-    { employeeId: '10', day: 'Sun', date: '3/29/2026', startTime: '12:30', endTime: '19:45' },
-    { employeeId: '10', day: 'Mon', date: '3/30/2026', startTime: '17:30', endTime: '22:30' },
+    { employeeId: '24', day: 'Tue', date: '4/7/2026', startTime: '15:15', endTime: '23:00' },
+    { employeeId: '10', day: 'Wed', date: '4/8/2026', startTime: '16:00', endTime: '23:00' },
+    { employeeId: '10', day: 'Sat', date: '4/11/2026', startTime: '16:00', endTime: '23:00' },
+    { employeeId: '10', day: 'Sun', date: '4/12/2026', startTime: '12:30', endTime: '19:45' },
+    { employeeId: '10', day: 'Mon', date: '4/13/2026', startTime: '16:15', endTime: '23:00' },
 
     // 11. Bernardo, Jennifer
-    { employeeId: '11', day: 'Tue', date: '3/24/2026', startTime: '11:00', endTime: '16:00' },
-    { employeeId: '11', day: 'Wed', date: '3/25/2026', startTime: '10:15', endTime: '15:00' },
-    { employeeId: '11', day: 'Thu', date: '3/26/2026', startTime: '10:00', endTime: '15:00' },
-    { employeeId: '11', day: 'Fri', date: '3/27/2026', startTime: '10:00', endTime: '16:00' },
-    { employeeId: '11', day: 'Mon', date: '3/30/2026', startTime: '10:00', endTime: '16:00' },
+    { employeeId: '11', day: 'Wed', date: '4/8/2026', startTime: '10:15', endTime: '15:00' },
+    { employeeId: '11', day: 'Thu', date: '4/9/2026', startTime: '10:00', endTime: '15:00' },
+    { employeeId: '11', day: 'Fri', date: '4/10/2026', startTime: '10:00', endTime: '16:00' },
 
     // 12. Bhandari, Manish
-    { employeeId: '12', day: 'Tue', date: '3/24/2026', startTime: '07:30', endTime: '14:30' },
-    { employeeId: '12', day: 'Wed', date: '3/25/2026', startTime: '08:00', endTime: '16:00' },
-    { employeeId: '12', day: 'Thu', date: '3/26/2026', startTime: '07:30', endTime: '14:30' },
-    { employeeId: '12', day: 'Fri', date: '3/27/2026', startTime: '07:30', endTime: '15:00' },
-    { employeeId: '12', day: 'Mon', date: '3/30/2026', startTime: '07:30', endTime: '14:00' },
+    { employeeId: '12', day: 'Tue', date: '4/7/2026', startTime: '07:30', endTime: '14:30' },
+    { employeeId: '12', day: 'Wed', date: '4/8/2026', startTime: '16:00', endTime: '22:00' },
+    { employeeId: '12', day: 'Thu', date: '4/9/2026', startTime: '11:30', endTime: '16:30' },
+    { employeeId: '12', day: 'Fri', date: '4/10/2026', startTime: '08:00', endTime: '15:00' },
+    { employeeId: '12', day: 'Mon', date: '4/13/2026', startTime: '07:30', endTime: '15:30' },
 
     // 33. Bhatnagar, Vaani
-    { employeeId: '33', day: 'Fri', date: '3/27/2026', startTime: '16:30', endTime: '22:30' },
-    { employeeId: '33', day: 'Sat', date: '3/28/2026', startTime: '17:00', endTime: '22:00' },
-    { employeeId: '33', day: 'Mon', date: '3/30/2026', startTime: '17:00', endTime: '22:00' },
+    { employeeId: '33', day: 'Mon', date: '4/13/2026', startTime: '16:00', endTime: '22:00' },
 
     // 13. Bhatt, Nishant
-    { employeeId: '13', day: 'Tue', date: '3/24/2026', startTime: '07:30', endTime: '15:00' },
-    { employeeId: '13', day: 'Wed', date: '3/25/2026', startTime: '07:00', endTime: '15:00' },
-    { employeeId: '13', day: 'Thu', date: '3/26/2026', startTime: '07:45', endTime: '13:30' },
-    { employeeId: '13', day: 'Sun', date: '3/29/2026', startTime: '07:30', endTime: '14:00' },
+    { employeeId: '13', day: 'Wed', date: '4/8/2026', startTime: '07:30', endTime: '15:00' },
+    { employeeId: '13', day: 'Thu', date: '4/9/2026', startTime: '07:45', endTime: '13:30' },
+    { employeeId: '13', day: 'Sun', date: '4/12/2026', startTime: '07:30', endTime: '14:30' },
 
     // 14. Biswas, Sohini
-    { employeeId: '14', day: 'Tue', date: '3/24/2026', startTime: '10:00', endTime: '15:00' },
-    { employeeId: '14', day: 'Wed', date: '3/25/2026', startTime: '10:30', endTime: '15:30' },
-    { employeeId: '14', day: 'Thu', date: '3/26/2026', startTime: '09:00', endTime: '15:30' },
-    { employeeId: '14', day: 'Sun', date: '3/29/2026', startTime: '12:00', endTime: '20:00' },
-    { employeeId: '14', day: 'Mon', date: '3/30/2026', startTime: '09:30', endTime: '15:30' },
+    { employeeId: '14', day: 'Tue', date: '4/7/2026', startTime: '10:00', endTime: '15:00' },
+    { employeeId: '14', day: 'Wed', date: '4/8/2026', startTime: '10:30', endTime: '15:30' },
+    { employeeId: '14', day: 'Thu', date: '4/9/2026', startTime: '09:30', endTime: '15:30' },
+    { employeeId: '14', day: 'Mon', date: '4/13/2026', startTime: '09:30', endTime: '15:30' },
 
     // 15. Chaudhary, Brijesh
-    { employeeId: '15', day: 'Tue', date: '3/24/2026', startTime: '07:30', endTime: '15:00' },
-    { employeeId: '15', day: 'Wed', date: '3/25/2026', startTime: '06:00', endTime: '15:00' },
-    { employeeId: '15', day: 'Thu', date: '3/26/2026', startTime: '07:30', endTime: '14:30' },
-    { employeeId: '15', day: 'Fri', date: '3/27/2026', startTime: '07:30', endTime: '14:30' },
-    { employeeId: '15', day: 'Sat', date: '3/28/2026', startTime: '07:30', endTime: '16:30' },
+    { employeeId: '15', day: 'Tue', date: '4/7/2026', startTime: '07:30', endTime: '15:30' },
+    { employeeId: '15', day: 'Wed', date: '4/8/2026', startTime: '08:00', endTime: '16:00' },
+    { employeeId: '15', day: 'Thu', date: '4/9/2026', startTime: '08:00', endTime: '14:30' },
+    { employeeId: '15', day: 'Fri', date: '4/10/2026', startTime: '07:30', endTime: '15:00' },
+    { employeeId: '15', day: 'Sat', date: '4/11/2026', startTime: '07:30', endTime: '15:00' },
 
     // 34. Dua, Kashika
-    { employeeId: '34', day: 'Tue', date: '3/24/2026', startTime: '11:50', endTime: '19:00' },
-    { employeeId: '34', day: 'Wed', date: '3/25/2026', startTime: '11:50', endTime: '16:45' },
-    { employeeId: '34', day: 'Thu', date: '3/26/2026', startTime: '11:50', endTime: '19:30' },
-    { employeeId: '34', day: 'Fri', date: '3/27/2026', startTime: '11:50', endTime: '19:30' },
-    { employeeId: '34', day: 'Mon', date: '3/30/2026', startTime: '11:50', endTime: '19:30' },
+    { employeeId: '34', day: 'Tue', date: '4/7/2026', startTime: '11:50', endTime: '16:45' },
+    { employeeId: '34', day: 'Wed', date: '4/8/2026', startTime: '11:50', endTime: '16:45' },
+    { employeeId: '34', day: 'Thu', date: '4/9/2026', startTime: '11:50', endTime: '19:30' },
+    { employeeId: '34', day: 'Fri', date: '4/10/2026', startTime: '11:50', endTime: '19:00' },
+    { employeeId: '34', day: 'Mon', date: '4/13/2026', startTime: '15:00', endTime: '21:00' },
+
+    // PAGE 3
 
     // 16. Gomes, Patrick
-    { employeeId: '10', day: 'Tue', date: '3/24/2026', startTime: '10:30', endTime: '15:30' },
-    { employeeId: '16', day: 'Wed', date: '3/25/2026', startTime: '11:00', endTime: '16:00' },
-    { employeeId: '16', day: 'Thu', date: '3/26/2026', startTime: '11:30', endTime: '19:00' },
-    { employeeId: '16', day: 'Fri', date: '3/27/2026', startTime: '08:00', endTime: '16:30' },
-    { employeeId: '16', day: 'Mon', date: '3/30/2026', startTime: '16:30', endTime: '22:30' },
+    { employeeId: '16', day: 'Tue', date: '4/7/2026', startTime: '11:00', endTime: '20:00' },
+    { employeeId: '16', day: 'Wed', date: '4/8/2026', startTime: '11:00', endTime: '16:00' },
+    { employeeId: '16', day: 'Thu', date: '4/9/2026', startTime: '11:30', endTime: '16:30' },
+    { employeeId: '16', day: 'Fri', date: '4/10/2026', startTime: '11:00', endTime: '19:00' },
+    { employeeId: '16', day: 'Sat', date: '4/11/2026', startTime: '16:00', endTime: '23:00' },
 
     // 20. Nasibbayli, Max
-    { employeeId: '20', day: 'Wed', date: '3/25/2026', startTime: '11:45', endTime: '19:00' },
-    { employeeId: '20', day: 'Thu', date: '3/26/2026', startTime: '10:00', endTime: '16:30' },
-    { employeeId: '20', day: 'Fri', date: '3/27/2026', startTime: '10:15', endTime: '15:00' },
-    { employeeId: '20', day: 'Sat', date: '3/28/2026', startTime: '15:30', endTime: '22:30' },
-    { employeeId: '20', day: 'Sun', date: '3/29/2026', startTime: '16:30', endTime: '22:30' },
+    { employeeId: '20', day: 'Tue', date: '4/7/2026', startTime: '16:30', endTime: '23:00' },
+    { employeeId: '20', day: 'Thu', date: '4/9/2026', startTime: '10:00', endTime: '16:30' },
+    { employeeId: '20', day: 'Fri', date: '4/10/2026', startTime: '10:15', endTime: '15:00' },
+    { employeeId: '20', day: 'Sat', date: '4/11/2026', startTime: '15:30', endTime: '23:00' },
+    { employeeId: '20', day: 'Sun', date: '4/12/2026', startTime: '15:00', endTime: '22:30' },
 
     // 21. Omoding, Darwin
-    { employeeId: '21', day: 'Tue', date: '3/24/2026', startTime: '16:00', endTime: '20:00' },
-    { employeeId: '21', day: 'Wed', date: '3/25/2026', startTime: '16:00', endTime: '20:00' },
+    { employeeId: '21', day: 'Tue', date: '4/7/2026', startTime: '16:00', endTime: '20:00' },
+    { employeeId: '21', day: 'Wed', date: '4/8/2026', startTime: '16:00', endTime: '20:00' },
 
     // 22. Pyakurel, Bishwajit
-    { employeeId: '22', day: 'Tue', date: '3/24/2026', startTime: '11:45', endTime: '19:15' },
-    { employeeId: '22', day: 'Wed', date: '3/25/2026', startTime: '11:45', endTime: '19:30' },
-    { employeeId: '22', day: 'Fri', date: '3/27/2026', startTime: '11:45', endTime: '20:00' },
-    { employeeId: '22', day: 'Sat', date: '3/28/2026', startTime: '07:45', endTime: '14:30' },
-    { employeeId: '22', day: 'Mon', date: '3/30/2026', startTime: '10:00', endTime: '15:00' },
-
-    // PAGE 3 - Team Members
+    { employeeId: '22', day: 'Tue', date: '4/7/2026', startTime: '11:45', endTime: '20:00' },
+    { employeeId: '22', day: 'Wed', date: '4/8/2026', startTime: '11:45', endTime: '19:30' },
+    { employeeId: '22', day: 'Fri', date: '4/10/2026', startTime: '11:45', endTime: '20:00' },
+    { employeeId: '22', day: 'Sat', date: '4/11/2026', startTime: '07:45', endTime: '16:30' },
+    { employeeId: '22', day: 'Mon', date: '4/13/2026', startTime: '11:45', endTime: '20:00' },
 
     // 23. Romana, Zeenath
-    { employeeId: '23', day: 'Tue', date: '3/24/2026', startTime: '15:00', endTime: '22:00' },
-    { employeeId: '23', day: 'Wed', date: '3/25/2026', startTime: '11:15', endTime: '19:30' },
-    { employeeId: '23', day: 'Thu', date: '3/26/2026', startTime: '11:45', endTime: '20:15' },
-    { employeeId: '23', day: 'Fri', date: '3/27/2026', startTime: '09:30', endTime: '16:30' },
-    { employeeId: '23', day: 'Sat', date: '3/28/2026', startTime: '08:00', endTime: '15:00' },
-    { employeeId: '23', day: 'Sun', date: '3/29/2026', startTime: '10:00', endTime: '17:00' },
+    { employeeId: '23', day: 'Wed', date: '4/8/2026', startTime: '16:00', endTime: '23:00' },
+    { employeeId: '23', day: 'Fri', date: '4/10/2026', startTime: '09:30', endTime: '16:30' },
+    { employeeId: '23', day: 'Sat', date: '4/11/2026', startTime: '08:00', endTime: '16:00' },
+    { employeeId: '23', day: 'Sun', date: '4/12/2026', startTime: '11:00', endTime: '17:00' },
+    { employeeId: '23', day: 'Mon', date: '4/13/2026', startTime: '10:00', endTime: '15:00' },
 
     // 24. Sebastiao, Swelly
-    { employeeId: '24', day: 'Tue', date: '3/24/2026', startTime: '09:30', endTime: '15:30' },
-    { employeeId: '24', day: 'Wed', date: '3/25/2026', startTime: '09:30', endTime: '15:30' },
-    { employeeId: '24', day: 'Thu', date: '3/26/2026', startTime: '15:30', endTime: '22:30' },
-    { employeeId: '24', day: 'Fri', date: '3/27/2026', startTime: '16:00', endTime: '22:30' },
-    { employeeId: '24', day: 'Mon', date: '3/30/2026', startTime: '10:15', endTime: '17:00' },
+    { employeeId: '24', day: 'Tue', date: '4/7/2026', startTime: '09:30', endTime: '15:30' },
+    { employeeId: '24', day: 'Wed', date: '4/8/2026', startTime: '09:30', endTime: '15:30' },
+    { employeeId: '24', day: 'Thu', date: '4/9/2026', startTime: '15:30', endTime: '22:30' },
+    { employeeId: '24', day: 'Fri', date: '4/10/2026', startTime: '16:00', endTime: '23:00' },
+    { employeeId: '24', day: 'Mon', date: '4/13/2026', startTime: '10:15', endTime: '17:00' },
 
     // 26. Solmes, Andrew
-    { employeeId: '26', day: 'Tue', date: '3/24/2026', startTime: '17:30', endTime: '22:30' },
-    { employeeId: '26', day: 'Wed', date: '3/25/2026', startTime: '17:00', endTime: '22:00' },
-    { employeeId: '26', day: 'Thu', date: '3/26/2026', startTime: '17:00', endTime: '22:00' },
-    { employeeId: '26', day: 'Fri', date: '3/27/2026', startTime: '17:00', endTime: '22:00' },
-    { employeeId: '26', day: 'Mon', date: '3/30/2026', startTime: '17:00', endTime: '22:00' },
+    { employeeId: '26', day: 'Tue', date: '4/7/2026', startTime: '17:00', endTime: '22:00' },
+    { employeeId: '26', day: 'Wed', date: '4/8/2026', startTime: '17:00', endTime: '22:00' },
+    { employeeId: '26', day: 'Thu', date: '4/9/2026', startTime: '17:00', endTime: '22:00' },
 
     // 27. Tabemonso, Celestine E
-    { employeeId: '27', day: 'Tue', date: '3/24/2026', startTime: '16:30', endTime: '22:30' },
-    { employeeId: '27', day: 'Wed', date: '3/25/2026', startTime: '17:00', endTime: '23:00' },
-    { employeeId: '27', day: 'Thu', date: '3/26/2026', startTime: '16:30', endTime: '22:30' },
-    { employeeId: '27', day: 'Sat', date: '3/28/2026', startTime: '07:30', endTime: '15:00' },
-    { employeeId: '27', day: 'Sun', date: '3/29/2026', startTime: '08:30', endTime: '17:00' },
+    { employeeId: '27', day: 'Tue', date: '4/7/2026', startTime: '16:30', endTime: '23:00' },
+    { employeeId: '27', day: 'Thu', date: '4/9/2026', startTime: '16:30', endTime: '23:00' },
+    { employeeId: '27', day: 'Sat', date: '4/11/2026', startTime: '07:30', endTime: '15:00' },
+    { employeeId: '27', day: 'Sun', date: '4/12/2026', startTime: '11:00', endTime: '17:00' },
+    { employeeId: '27', day: 'Mon', date: '4/13/2026', startTime: '10:00', endTime: '15:00' },
 
     // 28. Tamang, Rohan
-    { employeeId: '28', day: 'Wed', date: '3/25/2026', startTime: '17:00', endTime: '23:00' },
-    { employeeId: '28', day: 'Thu', date: '3/26/2026', startTime: '17:30', endTime: '22:30' },
-    { employeeId: '28', day: 'Sat', date: '3/28/2026', startTime: '11:00', endTime: '16:00' },
-    { employeeId: '28', day: 'Sun', date: '3/29/2026', startTime: '12:30', endTime: '19:45' },
-    { employeeId: '28', day: 'Mon', date: '3/30/2026', startTime: '07:30', endTime: '14:00' },
+    { employeeId: '10', day: 'Tue', date: '4/7/2026', startTime: '07:30', endTime: '14:20' },
+    { employeeId: '28', day: 'Wed', date: '4/8/2026', startTime: '17:30', endTime: '22:30' },
+    { employeeId: '28', day: 'Fri', date: '4/10/2026', startTime: '17:30', endTime: '22:30' },
+    { employeeId: '28', day: 'Sun', date: '4/12/2026', startTime: '12:30', endTime: '19:45' },
+    { employeeId: '28', day: 'Mon', date: '4/13/2026', startTime: '07:30', endTime: '14:20' },
 
     // 30. Tsegay, Betel
-    { employeeId: '30', day: 'Thu', date: '3/26/2026', startTime: '15:30', endTime: '22:00' },
-    { employeeId: '30', day: 'Sat', date: '3/28/2026', startTime: '16:30', endTime: '22:30' },
-    { employeeId: '30', day: 'Sun', date: '3/29/2026', startTime: '16:30', endTime: '22:30' },
+    { employeeId: '30', day: 'Thu', date: '4/9/2026', startTime: '11:30', endTime: '22:30' },
+    { employeeId: '10', day: 'Fri', date: '4/10/2026', startTime: '11:30', endTime: '22:00' },
 
     // 32. Williams, Jason
-    { employeeId: '32', day: 'Sun', date: '3/29/2026', startTime: '11:30', endTime: '16:30' },
+    { employeeId: '32', day: 'Sun', date: '4/12/2026', startTime: '11:00', endTime: '16:00' },
 ];
 
 export function formatTime(time: string) {

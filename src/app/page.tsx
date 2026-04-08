@@ -9,7 +9,7 @@ export default function Home() {
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight text-foreground">Employee Schedule - Weekly</h1>
             <p className="text-muted-foreground mt-1">
-              Time Period: Next Schedule Period • Executed on: 3/22/2026 2:55 PM
+              Time Period: Next Schedule Period • Executed on: 4/7/2026 2:41 PM
             </p>
           </div>
           <div className="bg-card border p-3 rounded-lg text-sm shadow-sm">
